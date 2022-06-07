@@ -62,7 +62,7 @@
                     for(var i = 0; i< product_table.length; i++) {%>  
                         <tr>
                             <th><%= product_table[i].customer_id %></th>
-                            <td><%= product_table[i].order_dt%></td>
+                            <td><%= product_table[i].order_dt.toLocaleDateString('en-US') %></td>
                             <td><%= product_table[i].item%></td>
                             <td><%= product_table[i].quantity%></td>
                             <td><%= product_table[i].price%></td>
