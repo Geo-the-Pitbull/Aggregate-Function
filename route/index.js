@@ -38,7 +38,6 @@ router.get('/', function (req, res, next){
                                                                         lowest_quant: itemMin[0].value,
                                                                         highest_quant: itemMax[0].value,
                                                                         page_title: 'Welcome to A Store'
-
                                                                     });
                                                                 }
                                                             });
